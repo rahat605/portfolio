@@ -33,6 +33,10 @@
     text-decoration: none;
 }
 
+.menuBtn{
+        display: none;
+    }
+
 @media screen and (max-width:830px) {
     .navbar {
         flex-direction: column;
@@ -56,6 +60,7 @@
 
     .menuItems{
         display: none;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         gap: 13px;
@@ -64,6 +69,13 @@
         background: linear-gradient(0deg, rgba(25,55,109,0.2)0%,rgba(25,55,109,1)100%);
         padding:24px 33px;
         box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+    }
+
+    .menuItems a:hover{
+        justify-items: center;
+        /* background: linear-gradient(90deg, rgba(135, 164, 218, 0.3)0%,rgb(203, 209, 222,0.5)100%); */
+        color:rgb(138, 142, 144) ;
+        border-radius: 7px;
     }
 
     .menuOpen{
