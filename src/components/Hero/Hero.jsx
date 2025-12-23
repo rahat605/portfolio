@@ -18,6 +18,6 @@ const Hero = () => {
       <div className={styles.bottomBlur} />
     </section>
   );
-};  
+}; 
 
 export default Hero;
