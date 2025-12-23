@@ -109,6 +109,10 @@
         align-items: center;
     }
 
+    .title{
+        margin-top: 20px;
+    }
+
     .description
     {
         align-items: center;
