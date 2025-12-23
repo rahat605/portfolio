@@ -14,6 +14,10 @@
     {
         "title" : "React",
         "imageSrc" : "skills/react.png"
+    },
+    {
+        "title" : "Selenium",
+        "imageSrc" : "skills/selenium.png"
     }
 
 ]
