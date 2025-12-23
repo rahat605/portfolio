@@ -108,7 +108,7 @@
     }
     .history{
         width: 100%;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         gap: 9px;
     }
