@@ -115,7 +115,7 @@
     {
         align-items: center;
         width: 90%;
-        margin: 5px 20px 30px 20px;
+        /* margin: 5px 20px 30px 20px; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -129,6 +129,9 @@
         text-align: center;
         margin-top: 20px;
         font-size: 55px;
+     }
+     .heroImg{
+        margin-top: 5px;
      }
 
 }
