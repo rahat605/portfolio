@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio 3.0
+        Portfolio
       </a>
       <div className={styles.menu}>
         <img
