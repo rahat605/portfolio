@@ -1,9 +1,16 @@
 [
-    {
+     {
         "role": "Intern Software Engineer",
         "organization" : "Era Infotech LTD",
+        "startDate" : "July 2024",
+        "endDate": "November 2024",
+        "imageSrc" : "history/era.png"
+    },
+    {
+        "role": "Teaching Assistant",
+        "organization" : "American International University Bangladesh",
         "startDate" : "January 2024",
         "endDate": "April 2024",
-        "imageSrc" : "history/era.png"
+        "imageSrc" : "history/aiub.png"
     }
 ]
