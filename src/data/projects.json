@@ -2,25 +2,25 @@
   {
     "title": "Portfolio Project",
     "imageSrc": "projects/portfolio.png",
-    "description": "This is a project for my own Portfolio website that I am working on.",
-    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "description": "Project for my own Portfolio website that I am working on.",
+    "skills": ["HTML", "CSS", "React"],
     "demo": "https://rahat-resume.vercel.app/",
     "source": "https://github.com/rahat605/portfolio"
   },
   {
-    "title": "Portfolio Project",
+    "title": "To Do List Web",
     "imageSrc": "projects/project.png",
-    "description": "This is a project for my own Portfolio website that I am working on.",
-    "skills": ["HTML", "CSS", "JavaScript", "React"],
-    "demo": "https://rahat-resume.vercel.app/",
-    "source": "https://github.com/rahat605/portfolio"
+    "description": "This is a simple sidebar menu for a photography website.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "",
+    "source": "https://github.com/rahat605/todo-list"
   },
   {
-    "title": "Portfolio Project",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project for my own Portfolio website that I am working on.",
-    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "title": "Spotify Clone",
+    "imageSrc": "projects/spotify.png",
+    "description": "This is the the clone of Spotify with top chart and music player.",
+    "skills": ["HTML", "CSS", "JavaScript"],
     "demo": "https://rahat-resume.vercel.app/",
-    "source": "https://github.com/rahat605/portfolio"
+    "source": "https://github.com/rahat605/Mini_Project/tree/main/Spotify"
   }
 ]

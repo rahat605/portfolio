@@ -35,9 +35,31 @@
     list-style: none;
 }
 
+.skill{
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 10px;
+    background-color: var(--color-dark);
+    padding: 2px 22px 6px 22px;
+}
 
-@media screen and (max-width:830px) {
-    .skills{
-        flex-direction: column;
-    }
+.links{
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 23px;
+    font-weight: 500;
+    border-radius: 100px;
+    background: #0047AB;
+    padding: 1px 22px 4px;
+}
+
+.link:hover{
+     background: #4169E1;
 }

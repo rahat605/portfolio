@@ -99,6 +99,7 @@
         flex-direction: column;
         align-items: center;
         gap: 34px;
+        margin-top: 10px;
     }
     .skills{
         margin-top: 30px;

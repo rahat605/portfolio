@@ -15,12 +15,12 @@ const ProjectCard = ({project : {imageSrc,title,description,skills,demo,source}}
               <p className={styles.description}>{description}</p>
               <ul className={styles.skills}>
                 {skills.map((skill,id)=>{
-                    return <li key={id} lassName={styles.skill}>{skill}</li>;
+                    return <li key={id} className={styles.skill}>{skill}</li>;
                 })}
               </ul>
-              <div lassName={styles.links}>
-                <a href={demo} lassName={styles.link}>Demo</a>
-                <a href={source} lassName={styles.link}>Source</a>
+              <div className={styles.links}>
+                <a href={demo} className={styles.link}>Demo</a>
+                <a href={source} className={styles.link}>Source</a>
               </div>
             </div>
   )
