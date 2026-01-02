@@ -56,7 +56,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 35px;
+    text-align: center;
+  }
+
+  .text h1{
+    font-size: 60px;
+  }
+
+  .text p{
+    font-size: 30px;
   }
 
   .links {
