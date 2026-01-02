@@ -1,0 +1,29 @@
+import React from 'react'
+import { getImageUrl } from "../../utils";
+import styles from "./ProjectCard.module.css";
+
+const ProjectCard = ({project : {imageSrc,title,description,skills,demo,source}}) => {
+  return (
+      <div className={styles.container}>
+              <img
+                src={getImageUrl(imageSrc)}
+                alt={`Image of ${title}`}
+                loading="lazy"
+                className={styles.image}
+              />
+              <h3 className={styles.title}>{title}</h3>
+              <p className={styles.description}>{description}</p>
+              <ul className={styles.skills}>
+                {skills.map((skill,id)=>{
+                    return <li key={id} lassName={styles.skill}>{skill}</li>;
+                })}
+              </ul>
+              <div lassName={styles.links}>
+                <a href={demo} lassName={styles.link}>Demo</a>
+                <a href={source} lassName={styles.link}>Source</a>
+              </div>
+            </div>
+  )
+}
+
+export default ProjectCard
