@@ -71,8 +71,8 @@
   gap: 17px;
   background: #19376d;
   background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
-  border-radius: 10px;
-  padding: 24px;
+  border-radius: 20px;
+  padding: 25px;
 }
 
 .historyItem img {
@@ -108,13 +108,18 @@
     flex-direction: row;
     justify-content: center;
   }
+
   .history {
     width: 100%;
     flex-direction: column;
     justify-content: center;
     gap: 9px;
-    font-size: 110px;
   }
+
+  .historyItem {
+    margin-left: -30px;
+  }
+
 
   .historyItem img {
     height: 60px;
