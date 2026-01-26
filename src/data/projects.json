@@ -7,6 +7,15 @@
     "demo": "https://rahat-resume.vercel.app/",
     "source": "https://github.com/rahat605/portfolio"
   },
+{
+  "title": "E-commerce Website",
+    "imageSrc": "projects/ecommerce.png",
+    "description": "A responsive ecom website for online purchase.",
+    "skills": ["HTML", "CSS", "React"],
+    "demo": "https://gobuybd.vercel.app/",
+    "source": "https://github.com/rahat605/eCommerce"
+}
+  ,
   {
     "title": "To Do List Web",
     "imageSrc": "projects/project.png",
@@ -23,4 +32,6 @@
     "demo": "https://rahat-resume.vercel.app/",
     "source": "https://github.com/rahat605/Mini_Project/tree/main/Spotify"
   }
+
+
 ]
