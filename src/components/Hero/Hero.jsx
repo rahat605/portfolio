@@ -23,7 +23,7 @@ const Hero = () => {
             download="Rahat_Resume.pdf"
             className={styles.resumeBtn}
           >
-            Resume
+            Download Resume
           </a>
         </div>
       </div>
