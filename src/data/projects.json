@@ -18,7 +18,7 @@
   ,
   {
     "title": "To Do List Web",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/todo.png",
     "description": "This is a simple sidebar menu for a photography website.",
     "skills": ["HTML", "CSS", "JavaScript"],
     "demo": "https://todo-list-blond-nine.vercel.app/",
