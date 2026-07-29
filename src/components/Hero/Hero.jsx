@@ -17,7 +17,7 @@ const Hero = () => {
             className={styles.contactBtn}
           >
             Contact Me
-          </a>
+          </a>"   "
           <a
             href="mailto:marufuzzaman.rahat@gmail.com"
             className={styles.resumeBtn}
