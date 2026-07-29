@@ -11,14 +11,30 @@ const Hero = () => {
           I am a frontend developer with expertise in HTML, CSS, JavaScript and
           React. Reach out if you'd like to learn more about me!
         </p>
-        <a href="mailto:marufuzzaman.rahat@gmail.com" className={styles.contactBtn}>Contact Me</a>
-        <a href="mailto:marufuzzaman.rahat@gmail.com" className={styles.resumeBtn}>Resume</a>
+        <div>
+          <a
+            href="mailto:marufuzzaman.rahat@gmail.com"
+            className={styles.contactBtn}
+          >
+            Contact Me
+          </a>
+          <a
+            href="mailto:marufuzzaman.rahat@gmail.com"
+            className={styles.resumeBtn}
+          >
+            Resume
+          </a>
+        </div>
       </div>
-      <img src={getImageUrl("hero/heroImage.png")} alt="hero-image" className={styles.heroImg} />
+      <img
+        src={getImageUrl("hero/heroImage.png")}
+        alt="hero-image"
+        className={styles.heroImg}
+      />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
   );
-}; 
+};
 
 export default Hero;
