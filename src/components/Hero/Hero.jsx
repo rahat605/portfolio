@@ -19,7 +19,8 @@ const Hero = () => {
             Contact Me
           </a>
           <a
-            href="mailto:marufuzzaman.rahat@gmail.com"
+            href="/cv.pdf"
+            download="Rahat_Resume.pdf"
             className={styles.resumeBtn}
           >
             Resume
