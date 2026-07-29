@@ -12,6 +12,7 @@ const Hero = () => {
           React. Reach out if you'd like to learn more about me!
         </p>
         <a href="mailto:marufuzzaman.rahat@gmail.com" className={styles.contactBtn}>Contact Me</a>
+        <a href="mailto:marufuzzaman.rahat@gmail.com" className={styles.contactBtn}>Resume</a>
       </div>
       <img src={getImageUrl("hero/heroImage.png")} alt="hero-image" className={styles.heroImg} />
       <div className={styles.topBlur} />
