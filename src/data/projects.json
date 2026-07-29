@@ -21,7 +21,7 @@
     "imageSrc": "projects/project.png",
     "description": "This is a simple sidebar menu for a photography website.",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "demo": "https://github.com/rahat605/portfolio.git",
+    "demo": "https://todo-list-blond-nine.vercel.app/",
     "source": "https://github.com/rahat605/todo-list"
   },
   {
