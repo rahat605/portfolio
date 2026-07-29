@@ -11,13 +11,13 @@ const Hero = () => {
           I am a frontend developer with expertise in HTML, CSS, JavaScript and
           React. Reach out if you'd like to learn more about me!
         </p>
-        <div>
+        <div className={styles.buttonContainer}>
           <a
             href="mailto:marufuzzaman.rahat@gmail.com"
             className={styles.contactBtn}
           >
             Contact Me
-          </a><span>    </span>
+          </a>
           <a
             href="mailto:marufuzzaman.rahat@gmail.com"
             className={styles.resumeBtn}
